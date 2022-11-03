@@ -14,7 +14,7 @@ name: "workflow"
 
 jobs:
   integration:
-    name: "CI"
+    name: "ci"
     runs-on: "ubuntu-latest"
     steps:
       - name: "Checkout Code"
