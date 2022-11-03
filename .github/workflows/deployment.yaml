@@ -1,5 +1,5 @@
 ---
-name: "deployement"
+name: "Deployement"
 
 'on':
   workflow_dispatch:
