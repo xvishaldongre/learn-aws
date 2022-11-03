@@ -1,5 +1,5 @@
 # It will create a ECR repo
-resource "aws_ecr_repository" "ecr_repo" {
+resource "aws_ecr_repository" "repository" {
   name                 = var.ecr_repo
   image_tag_mutability = "MUTABLE"
 
