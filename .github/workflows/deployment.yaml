@@ -39,6 +39,6 @@ jobs:
           IMAGE_TAG: ${{ github.sha }}
         run: |
           ls
-          docker build -t $REGISTRY/$REPOSITORY:$IMAGE_TAG src
+          docker build ./scr --file Dockerfile -t $REGISTRY/$REPOSITORY:$IMAGE_TAG
           docker push $REGISTRY/$REPOSITORY:$IMAGE_TAG
           echo "::set-output name=image::$ECR_REGISTRY/$REPOSITORY:$IMAGE_TAG"
