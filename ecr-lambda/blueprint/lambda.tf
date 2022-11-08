@@ -26,5 +26,5 @@ resource "aws_lambda_function" "simple-lambda-ecr" {
 
   package_type = "Image"
 
-  image_uri = "176265959211.dkr.ecr.us-east-1.amazonaws.com/simple-lambda-ecr:3b97d14fd2098976e6ab36918bc5c554c1c7dd36"
+  image_uri = "176265959211.dkr.ecr.us-east-1.amazonaws.com/simple-lambda-ecr:1a7d474c451cb666b89c592b1b6a428a1920ba46"
 }
